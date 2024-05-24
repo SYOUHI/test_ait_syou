@@ -38,7 +38,7 @@
 
 # [uneditable]
 
-# In[ ]:
+# In[1]:
 
 
 # Determine whether to start AIT or jupyter by startup argument
@@ -150,7 +150,7 @@ if not is_ait_launch:
     manifest_genenerator = AITManifestGenerator(current_dir)
     manifest_genenerator.set_ait_name('test_ait_syou')
     manifest_genenerator.set_ait_description('【データの被覆性】を評価するため、データ内の属性組み合わせのレコード件数に着目し、レアケースやインバランスな傾向がないかを評価すること ※カテゴリー属性のみ対象となる')
-    manifest_genenerator.set_ait_source_repository('https://github.com/SYOUHI/test_ait_syou/tree/main/test_dataset_table_counts_attr_coverage')
+    manifest_genenerator.set_ait_source_repository('https://github.com/SYOUHI/test_ait_syou')
     manifest_genenerator.set_ait_version('1.0')
     manifest_genenerator.add_ait_licenses('Apache License Version 2.0')
     manifest_genenerator.add_ait_keywords('Data Coverage')
